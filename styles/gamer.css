@@ -19,15 +19,26 @@
     border: 0;
 }
 
+.color {
+    color: #F948B2;
+}
+
+.dark-gray-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* work sans font from google fonts */
 
 
 nav {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    
+
 }
-.nav-content{
+
+.nav-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,9 +57,7 @@ nav {
     font-weight: 700;
 }
 
-.color {
-    color: #F948B2;
-}
+
 
 nav img {
     width: 86px;
@@ -56,7 +65,7 @@ nav img {
 }
 
 .nav-content ul {
-display: flex;
+    display: flex;
     gap: 32px;
 }
 
@@ -83,24 +92,26 @@ li a {
 .banner {
     display: flex;
     justify-content: space-between;
-    
-    
-    
+
+
+
 }
 
 .banner-container {
     background-image: url('../images/goat-bacground.png');
     width: 901px;
     height: 700px;
-    
-   
-    
+
+
+
 }
-.banner-content{
-    margin:148px 0 148px 240px;
-    
+
+.banner-content {
+    margin: 148px 0 148px 240px;
+
 }
-.banner-img{
+
+.banner-img {
     margin-bottom: 19px;
     margin-right: 240px;
 }
@@ -137,10 +148,62 @@ li a {
     padding: 21px 40px;
     border: 0;
 }
-.button{
+
+.button {
     display: flex;
     gap: 24px;
     margin-top: 41px;
+}
+
+/* funny-videos styles */
+.funny-videos {
+    text-align: center;
+    margin: 120px 240px 120px 240px;
+}
+
+.funny-videos-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+
+.funny-videos-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+/* play instantly styles */
+.play-instantly {
+    display: flex;
+    margin-left: 240px;
+    margin-right: 240px;
+    gap: 120px;
+}
+.play-instantly-content{
+    margin-top: 150px;
+    
+}
+
+.play-instantly-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hors-men {
+    height: 90%;
+    margin-left: 90px;
+}
+
+.cat-women {
+    /* background-color: white; */
+    position: relative;
+    bottom: 560px;
+
 }
 
 
@@ -163,11 +226,12 @@ li a {
     ul {
         text-align: center;
     }
+
     .banner {
         flex-direction: column-reverse;
-        
-        }
-        
+
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width: 992px) {
