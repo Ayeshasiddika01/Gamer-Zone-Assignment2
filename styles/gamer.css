@@ -32,29 +32,58 @@ nav {
     font-weight: 700;
 }
 
+.color {
+    color: #F948B2;
+}
+
 nav img {
     width: 86px;
     height: 40px;
 }
 
- nav > ul {
-    
-    
+nav>ul {
+
+
     display: flex;
     gap: 32px;
 }
-nav li{
+
+nav li {
     list-style: none;
     font-size: 18px;
     font-weight: 500;
     gap: 32px;
 }
 
+.three:hover {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    padding: 18px 0 18px 24px;
+   
+    
+   
+    
+}
+
+
 li a {
     text-decoration: none;
     color: #3C354F;
+}
+@media screen and (max-width:576px) {
+    header{
+        background: none ;
+        box-shadow:none
     }
-
-.color {
-    color: #F948B2;
+    nav, ul{
+        flex-direction: column;
+        
+    }
+    nav{
+        margin: 0;
+    }
+    ul{
+        text-align: center;
+    }
 }
